@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: aqua;
+}
+
+.header1 ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+li a:hover{
+    color:red;
+}
+.container_slider{
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 200px );
+}
+
+/* reg */
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 350px;
+    padding: 20px;
+    margin: 20px auto;
+}
+.container_reg{
+    margin: 30px 0;
+    text-align: center;
+    min-height: calc(100vh - 260px);
+}
+button{
+    margin-top: 10px;
+    width: 200px;
+    background-color: rgba(67, 179, 179, 0.791);
+    border: 0;
+    border-radius: 100px;
+    padding: 10px;
+    color: white;
+}
+button:hover{
+    background-color: limegreen;
+}
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    line-height: 30px;
+}
+input{
+    width: 200px;
+    background-color: rgba(128, 247, 247, 0.791);
+    border: 0;
+    border-radius: 30px;
+    padding: 3px 10px; 
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color: aqua;
+    
+}
+.footer ul{
+    display: flex;
+    list-style-type: none;
+}
+.logoimage{
+    width: 70px;
+    
+}
+.order{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.block{
+    border:1px solid black;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 a{
+    text-decoration: none;
+    color:black;
+}
+h2 a:hover{
+    color:aqua;
+}
+.color_l{
+    color:red;
+}
